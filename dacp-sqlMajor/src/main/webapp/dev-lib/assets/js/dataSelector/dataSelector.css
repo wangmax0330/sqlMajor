@@ -1,0 +1,113 @@
+ .grounp_add {
+     width: 568px;
+     height: auto;
+     border: 1px solid #ddd;
+     padding: 0 5px 5px;
+     margin: 5px auto 0 auto
+ }
+
+ .grounp_add span,
+ .word_category span.z {
+     padding: 2px 5px;
+     background: #d4e6fe;
+     border: 1px solid #ddd;
+     border-radius: 3px;
+     color: #333;
+     display: inline-block;
+     margin-top: 5px;
+     margin-right: 5px
+ }
+
+ .grounp_add span i,
+ .word_category i {
+     display: inline-block;
+     width: 7px;
+     height: 7px;
+     background: url(./close_user.png) no-repeat;
+     margin-left: 5px;
+     cursor: pointer;
+ }
+
+ .grounp_add a {
+     color: #256895;
+     margin-left: 5px;
+     cursor: pointer;
+     display: inline-block;
+     margin-top: 5px
+ }
+
+ .grounp_add a i {
+     display: inline-block;
+     width: 8px;
+     height: 8px;
+     background: url(./add_user.png) no-repeat;
+     margin-right: 3px;
+     vertical-align: middle;
+ }
+
+ .d_form {
+     border-bottom: 1px solid #ddd;
+     padding-bottom: 10px;
+ }
+
+ .d_form span {
+     display: block;
+     margin-bottom: 10px
+ }
+
+ .d_title {
+     height: 38px;
+     border-bottom: 1px solid #ddd;
+     background: #eef2fa
+ }
+
+ .user_list {
+     width: 578px;
+     height: auto;
+     border: 1px solid #ddd;
+     border-top: none;
+     margin: 0 auto;
+     background: #fff
+ }
+
+ .user_list input {
+     display: block;
+     background: #eee;
+     color: #999;
+     padding: 5px 0 5px 10px;
+     width: 568px;
+     border: none
+ }
+
+ .user_list a {
+     display: block;
+     height: 26px;
+     line-height: 26px;
+     color: #898989;
+     text-indent: 10px
+ }
+
+ .user_list a:hover {
+     text-decoration: none;
+ }
+
+ .user_list li.selected a {
+     background: #009cf6;
+     text-decoration: none;
+     color: #fff;
+ }
+
+ .add_workgrounp {
+     position: relative;
+     width: 580px;
+     margin: 0 auto
+ }
+
+ .user_list {
+     position: absolute;
+     left: 0;
+     top: 33px;
+     display: none;
+     background: #fff;
+     z-index: 999
+ }

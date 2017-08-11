@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <setting name="callSettersOnNulls" value="true"/>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <typeAliases>
+        <package name="com.shj.ms.biz.po"/>
+    </typeAliases>
+    <typeHandlers>
+        <!-- 数据库与实体的映射关系统一后启用 -->
+        <!-- <package name="com.shj.framework.xdatabase.base.mybatis.handler" /> -->
+    </typeHandlers>
+</configuration>
+
+
